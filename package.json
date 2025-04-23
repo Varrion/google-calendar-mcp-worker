@@ -1,0 +1,22 @@
+{
+  "name": "google-calendar-worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250423.0",
+    "wrangler": "^4.13.0"
+  },
+  "dependencies": {
+    "@cloudflare/workers-oauth-provider": "^0.0.3",
+    "cloudflare-workers-and-google-oauth": "^2.0.0",
+    "cloudflare-workers-sse": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}

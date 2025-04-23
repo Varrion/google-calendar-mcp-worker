@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["ES2022","WebWorker"],
+    "types": ["@cloudflare/workers-types"],
+
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
