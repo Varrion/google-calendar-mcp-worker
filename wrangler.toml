@@ -1,13 +1,9 @@
 name = "google-calendar-worker"
 main = "src/index.ts"
-compatibility_date = "2023-07-01"
-
-#[vars]
-#GOOGLE_CLIENT_ID = "678325217746-p2lt8g0i6r0p8eft9j6rer5tjgcpe0po.apps.googleusercontent.com"
-#GOOGLE_CLIENT_SECRET = "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"
-#BASE_URL = "http://localhost:3000/oauth2callback"
+compatibility_date = "2024-09-23"
+compatibility_flags = [ "nodejs_compat" ]
 
 [[kv_namespaces]]
 binding = "KV_GCP_SERVICE_ACCOUNT"
-id = "de5b17152868467ba44d8e8baa591bc3"
-preview_id = "85f5c105715e4ec8bc79c0c841d869c0"
+id = "YOUR_NAMESPACE_ID"
+preview_id = "YOUR_PREVIEW_NAMESPACE_ID"

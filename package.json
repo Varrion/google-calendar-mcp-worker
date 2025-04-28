@@ -17,6 +17,7 @@
     "@cloudflare/workers-oauth-provider": "^0.0.3",
     "cloudflare-workers-and-google-oauth": "^2.0.0",
     "cloudflare-workers-sse": "^2.0.0",
+    "google-auth-library": "^9.15.1",
     "typescript": "^5.8.3"
   }
 }
